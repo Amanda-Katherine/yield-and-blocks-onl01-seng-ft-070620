@@ -1,6 +1,10 @@
-def hello_t
+def hello_t(array)
+  i = 0
 
+  while i < array.length
+    i =+ 1
+  end
 end
 
 # call your method here!
-
+puts hello_t([1,2,3,4,5,6,7])
